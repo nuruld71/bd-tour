@@ -19,7 +19,7 @@ export default function HomePage() {
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-28 sm:px-6 lg:px-8 lg:py-40">
           <div className="max-w-2xl">
-            <p className="inline-flex items-center rounded-full bg-brand-500/20 px-4 py-1.5 text-sm font-semibold text-gray-200 ring-1 ring-inset ring-brand-400/40">
+            <p className="inline-flex items-center rounded-full bg-brand-500/20 px-4 py-1.5 text-sm font-semibold text-gray-700 ring-1 ring-inset ring-brand-400/40">
               🍃 Discover Beautiful Bangladesh
             </p>
             <h1 className="mt-6 text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
