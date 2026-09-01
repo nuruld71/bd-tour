@@ -49,7 +49,7 @@ const howItWorks = [
 export default function AboutPage() {
   return (
     <div>
-      <section className="bg-liner-to-br from-brand-700 to-brand-800 py-16 sm:py-20">
+      <section className="bg-linear-to-br from-brand-700 to-brand-800 py-16 sm:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl font-extrabold tracking-tight text-white sm:text-5xl">
             About TourBangladesh
