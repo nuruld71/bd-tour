@@ -24,7 +24,7 @@ export default function Navbar() {
               BD
             </span>
             <span className="text-xl font-extrabold tracking-tight text-gray-900">
-              Tour<span className="text-brand-600">Bangladesh</span>
+              BD<span className="text-brand-600">Trip</span>
             </span>
           </Link>
 
