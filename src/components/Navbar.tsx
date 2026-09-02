@@ -39,10 +39,16 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href="/contact"
-              className="ml-2 rounded-lg bg-brand-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-700"
+              href="/login"
+              className="ml-2 rounded-lg border border-brand-600 px-4 py-2 text-sm font-semibold text-brand-600 transition hover:bg-brand-50"
             >
-              Book a Tour
+              Login
+            </Link>
+            <Link
+              href="/register"
+              className="rounded-lg bg-brand-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-700"
+            >
+              Sign Up
             </Link>
           </div>
 
@@ -75,11 +81,18 @@ export default function Navbar() {
             </Link>
           ))}
           <Link
-            href="/contact"
+            href="/login"
+            onClick={() => setOpen(false)}
+            className="mt-2 block rounded-lg border border-brand-600 px-4 py-2.5 text-center text-base font-semibold text-brand-600"
+          >
+            Login
+          </Link>
+          <Link
+            href="/register"
             onClick={() => setOpen(false)}
             className="mt-2 block rounded-lg bg-brand-600 px-4 py-2.5 text-center text-base font-semibold text-white hover:bg-brand-700"
           >
-            Book a Tour
+            Sign Up
           </Link>
         </div>
       )}
